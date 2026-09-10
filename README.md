@@ -7,10 +7,12 @@
 
 </div>
 
+
 <div align="center">
-  <img src="Figures/storage_curve.png" width="700">
-  <p><em>Retrieval quality against storage per page on ViDoRe v1 (ColPali, ten subsets, three seeds). GLIE keeps 79% of uncompressed nDCG@5 at four vectors per page (1.0 KB, 258× less storage) and 91% at sixteen. The shaded region is the range below the most aggressive published post-hoc operating point.</em></p>
+  <img src="Figures/margins.png" width="1000">
+  <p><em>Margin over the strongest training-free baseline at each budget on <b>(left)</b> ViDoRe v1 and <b>(right)</b> ViDoRe v2, shared y-limits. The dashed line is the stored code alone and the shaded band is what the generative read-out adds. On v1 the margin concentrates at aggressive budgets and the band closes as the code saturates. On v2, which saturates nowhere, both persist to k=64.</em></p>
 </div>
+
 
 
 ---
@@ -41,17 +43,8 @@
 </div>
 
 ---
-## Results
 
-<div align="center">
-  <img src="Figures/margins.png" width="1000">
-  <p><em>Margin over the strongest training-free baseline at each budget on <b>(left)</b> ViDoRe v1 and <b>(right)</b> ViDoRe v2, shared y-limits. The dashed line is the stored code alone and the shaded band is what the generative read-out adds. On v1 the margin concentrates at aggressive budgets and the band closes as the code saturates. On v2, which saturates nowhere, both persist to k=64.</em></p>
-</div>
 
-<div align="center">
-  <img src="Figures/headroom.png" width="700">
-  <p><em>Where the remaining error lives at each budget on ViDoRe v1. From the bottom: the stored code, what the read-out adds, what a perfect decoder on the same shortlist would still add (printed on each bar), and what a larger shortlist would add. Decode fidelity is the largest remaining term at every budget, which is why better decoders are the immediate move on this axis.</em></p>
-</div>
 
 # Guide for GLIE
 
