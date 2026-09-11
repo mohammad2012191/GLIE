@@ -3,7 +3,7 @@
 
 <div align="center">
 
-[![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b)](https://arxiv.org/abs/XXXX.XXXXX)
+[![arXiv](https://img.shields.io/badge/arXiv-2609.11808-b31b1b)](https://arxiv.org/abs/2609.11808)
 
 </div>
 
@@ -195,12 +195,13 @@ If you use GLIE in your research, please cite:
 
 
 ```bibtex
-@misc{eltahir2026glie,
-      title={Generative Late-Interaction Embeddings for Visual Document Retrieval},
-      author={Mohamed Eltahir and Talal Aloushan and Rose Khairoalsendi and Jana Shatta and Mohammed Alhassan and Leen Alrehaili and Tanveer Hussain and Naeemullah Khan},
+@misc{eltahir2026generativelateinteractionembeddingsvisual,
+      title={Generative Late-Interaction Embeddings For Visual Document Retrieval}, 
+      author={Mohamed Eltahir and Talal Aloushan and Rose Khairoalsendi and Jana Shata and Mohammed Alhassan and Leen Alrehaili and Tanveer Hussain and Naeemullah Khan},
       year={2026},
-      eprint={XXXX.XXXXX},
+      eprint={2609.11808},
       archivePrefix={arXiv},
-      primaryClass={cs.IR}
+      primaryClass={cs.IR},
+      url={https://arxiv.org/abs/2609.11808}, 
 }
 ```
